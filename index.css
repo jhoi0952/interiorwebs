@@ -1,0 +1,595 @@
+/* {
+  padding: 0;
+  margin: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 20px;
+}
+nav img {
+  width: 100px;
+  height: 50px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  margin-left: 80px;
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+}
+.tom {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  border: 2px solid;
+  padding-inline: 10px;
+  background-color: rgb(4, 4, 69);
+}
+.pool {
+  /* background-color: blue;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 2px;
+}
+.pool h1 {
+  font-size: 4rem;
+}
+.pool p {
+  font-size: 1.2rem;
+  max-width: 450px;
+  margin: 40px 0;
+  color: rgb(4, 4, 77);
+  text-decoration: none;
+}
+.pool button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+#loop {
+  background-color: transparent;
+  color: black;
+}
+.oil img {
+  width: 600px;
+  margin-bottom: 60px;
+  float: right;
+  margin-top: 60px;
+  margin-right: 150px;
+}
+.loop {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+  border: 2px solid;
+  padding-inline: 10px;
+  background-color: rgb(2, 2, 57);
+}
+.pal img {
+  width: 600px;
+  margin-bottom: 60px;
+  float: left;
+  margin-top: 60px;
+  margin-left: 160px;
+}
+.good h1 {
+  text-decoration: none;
+  display: flex;
+  font-family: poppins;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 4rem;
+  padding: 50px;
+}
+.good p {
+  font-size: 1rem;
+  font-family: poppins;
+  font-style: italic;
+  text-transform: lowercase;
+  text-decoration: none;
+  margin-bottom: 100px;
+  margin-top: 90px;
+  align-self: center;
+}
+.look {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 500;
+  border: 2px solid;
+  padding-inline: 10px;
+  background-color: transparent;
+}
+/* project section start 
+.pro-container {
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+
+  padding-block: 50px;
+  padding-inline: 40px;
+}
+.procontainer h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.procontainer p {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.pro-items {
+  margin-top: 40px;
+  display: grid;
+  width: 90%;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.pro-items div {
+  background-color: red;
+  width: 80%;
+}
+.pro-items div img {
+  width: 100%;
+}
+.pro-items div h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.pro-items div p {
+  width: 80%;
+  margin-bottom: 25px;
+}
+.pro-items div a {
+  color: black;
+  text-decoration: none;
+  border: 1.5px solid;
+  padding: 10px;
+}
+.middle {
+  background-color: red;
+  width: 120px;
+  height: 800px;
+  position: relative;
+  left: 90px;
+  z-index: 1;
+}
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-block: 20px;
+}
+
+nav h1 {
+  font-size: 30px;
+  font-family: fantasy;
+  letter-spacing: 1px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+nav button {
+  padding-block: 8px;
+  padding-inline: 20px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: transparent;
+  border: 2px solid black;
+}
+
+/* Hero section start */
+
+header {
+  background-color: #e6e6e6;
+  padding: 80px;
+}
+.hero-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.hero-left {
+  width: 30%;
+}
+.hero-left h1 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  line-height: 50px;
+}
+.hero-left p {
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+.hero-left a {
+  padding-block: 20px;
+  padding-inline: 20px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.hero-right {
+  width: 50%;
+}
+.hero-right img {
+  width: 100%;
+}
+
+/* About section start */
+.super-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  margin-block: 90px;
+  margin-inline: 90px;
+}
+.super-left {
+  width: 50%;
+}
+.super-left img {
+  width: 100%;
+}
+.super-right {
+  width: 40%;
+}
+.super-right h1 {
+  font-size: 50px;
+}
+.super-right p {
+  font-size: 20px;
+  margin-block: 40px;
+}
+.link {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid black;
+  padding-inline: 20px;
+  padding-block: 10px;
+  color: black;
+}
+
+/* Project section start */
+.pro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  padding-block: 50px;
+  padding-inline: 40px;
+}
+.pro-container h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.text {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.pro-items {
+  margin-top: 40px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  z-index: 2;
+}
+.pro-items div {
+  width: 90%;
+}
+.pro-items div img {
+  width: 100%;
+}
+.pro-items div h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.pro-items div p {
+  width: 80%;
+  margin-bottom: 25px;
+}
+.pro-items div a {
+  color: black;
+  text-decoration: none;
+  border: 1.5px solid black;
+  padding: 10px;
+  font-size: 15px;
+}
+.pro-items div a i {
+  padding-left: 10px;
+  transform: rotateZ(-30deg);
+}
+.pop{
+  margin-top: 40px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  gap: 30px;
+  z-index: 2;
+}
+.pop div{
+  width: 90%;
+}
+.pop div img{
+  width: 100%;
+}
+.pop div h1{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:50px;
+}
+.pop div p{
+  width: 80%;
+  margin-bottom: 300px;
+  margin-top: 50px;
+
+}
+.lol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 50px;
+  padding-inline: 40px;
+}
+.lol h1{
+   text-align: center;
+   font-size: 40px;
+   padding-bottom: 10px;
+  color: white;
+}
+.pin{
+  text-align: center;
+  font-size: 40px;
+  padding-bottom: 10px;
+  color: white;
+}
+.low{
+  background-color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid black;
+  padding-inline: 20px;
+  padding-block: 10px;
+  color:black;
+  align-items: center;
+  justify-content: center;
+  margin-left: 600px;
+  position: relative;
+  top: 30px;
+}
+.key{
+  background-image: url(pictures/0H7A2495-1-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+/*.middle {
+  background-color:lawngreen;
+  padding-right: 150px;
+  width: 120px;
+  height: 800px;
+  position: absolute;
+  left: 450px;
+  top: 90rem;
+  z-index:2;
+  padding: 50px;
+}
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 20px;
+    background-color: blue;
+  }
+
+  nav h1 {
+    font-size: 15px;
+    font-family: fantasy;
+    letter-spacing: 3px;
+    padding-left: 20px;
+  }
+  nav ul {
+    display: none;
+    justify-content: center;
+    gap: 100px;
+  }
+  nav ul li {
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  }
+  nav button {
+    padding-block: 8px;
+    padding-inline: 20px;
+    margin-right: 30px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid black;
+  }
+} */
+/* nav section end */
+header {
+  background-color: #e6e6e6;
+  padding: 80px;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 60px;
+}
+
+.hero-left {
+  width: 90%;
+}
+.hero-left h1 {
+  font-size: 30px;
+  padding-bottom: 30px;
+  line-height: 50px;
+}
+.hero-left p {
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+.hero-left a {
+  padding-block: 20px;
+  padding-inline: 20px;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+.hero-right {
+  width: 90%;
+}
+.hero-right img {
+  width: 100%;
+}
+
+/* About section start */
+.super-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10%;
+  margin-block: 90px;
+  margin-inline: 90px;
+}
+.super-left {
+  width: 50%;
+}
+.super-left img {
+  width: 100%;
+}
+.super-right {
+  width: 40%;
+}
+.super-right h1 {
+  font-size: 50px;
+}
+.super-right p {
+  font-size: 20px;
+  margin-block: 40px;
+}
+.link {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid black;
+  padding-inline: 20px;
+  padding-block: 10px;
+  color: black;
+}
+
+/* Project section start */
+.pro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e6e6;
+  padding-block: 50px;
+  padding-inline: 40px;
+}
+.pro-container h1 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.text {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.pro-items {
+  margin-top: 40px;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  z-index: 2;
+}
+.pro-items div {
+  width: 90%;
+}
+.pro-items div img {
+  width: 100%;
+}
+.pro-items div h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.pro-items div p {
+  width: 80%;
+  margin-bottom: 25px;
+}
+.pro-items div a {
+  color: black;
+  text-decoration: none;
+  border: 1.5px solid black;
+  padding: 10px;
+  font-size: 15px;
+}
+.pro-items div a i {
+  padding-left: 10px;
+  transform: rotateZ(-30deg);
+}
